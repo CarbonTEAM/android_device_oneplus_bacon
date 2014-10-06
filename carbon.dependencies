@@ -6,10 +6,10 @@
     "revision": "kk"
   },
   {
-    "remote": "cm",
-    "repository": "Cyanogenmod/android_device_oppo_msm8974-common",
+    "remote": "cr",
+    "repository": "CarbonDev/android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "cm-11.0"
+    "revision": "kk"
   },
   {
     "remote": "cm",
