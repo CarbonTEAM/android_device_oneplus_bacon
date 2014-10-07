@@ -49,4 +49,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/A0001:4.4.2/KVT4
 
 PRODUCT_COPY_FILES += \
     device/oneplus/bacon/prebuilt/common/app/CameraNext.apk:system/app/CameraNext.apk \
-    device/oneplus/bacon/prebuilt/common/app/GalleryNext.apk:system/app/GalleryNext.apk
+    device/oneplus/bacon/prebuilt/common/app/GalleryNext.apk:system/app/GalleryNext.apk \
+    device/oneplus/bacon/prebuilt/common/app/Hexo.apk:system/app/Hexo.apk \
+    device/oneplus/bacon/prebuilt/common/app/HexoIcons.apk:system/app/HexoIcons.apk \
+    device/oneplus/bacon/prebuilt/common/app/ThemeStore.apk:system/app/ThemeStore.apk
