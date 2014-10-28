@@ -39,13 +39,13 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BRAND := oneplus
 TARGET_VENDOR_PRODUCT_NAME := bacon
-TARGET_VENDOR_DEVICE_NAME := A0001
+TARGET_VENDOR_DEVICE_NAME := bacon
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
 
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/A0001:4.4.2/KVT49L/XNPH25R:user/release-keys \
-								PRIVATE_BUILD_DESC="bacon-user 4.4.2 KVT49L XNPH25R release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/bacon:4.4.2/KVT49L/XNPH25R:user/release-keys \
+								PRIVATE_BUILD_DESC="Carbon_bacon-user 4.4.2 KVT49L XNPH25R release-keys"
 
 PRODUCT_COPY_FILES += \
     device/oneplus/bacon/prebuilt/common/app/CameraNext.apk:system/app/CameraNext.apk \
