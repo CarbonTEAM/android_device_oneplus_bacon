@@ -34,18 +34,22 @@ PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := One
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.bacon.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.carbon.device=Carbon_bacon
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BRAND := oneplus
 TARGET_VENDOR_PRODUCT_NAME := bacon
 TARGET_VENDOR_DEVICE_NAME := bacon
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
+
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=bacon \
+                                PRODUCT_NAME=bacon \
+                                TARGET_PRODUCT := Carbon_bacon
 
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/bacon:4.4.2/KVT49L/XNPH25R:user/release-keys \
-								PRIVATE_BUILD_DESC="Carbon_bacon-user 4.4.2 KVT49L XNPH25R release-keys"
+                                PRIVATE_BUILD_DESC="Carbon_bacon-user 4.4.2 KVT49L XNPH25R release-keys"
 
 PRODUCT_COPY_FILES += \
     device/oneplus/bacon/prebuilt/common/app/CameraNext.apk:system/app/CameraNext.apk \
