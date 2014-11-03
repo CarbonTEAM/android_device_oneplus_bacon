@@ -51,7 +51,7 @@ TARGET_WCNSS_MAC_PREFIX := e8bba8
 BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_HAL_SUFFIX := bacon
 
-AUDIO_FEATURE_ENABLED_ULTRA_LOW_LATENCY := true
+#AUDIO_FEATURE_ENABLED_ULTRA_LOW_LATENCY := true
 
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
