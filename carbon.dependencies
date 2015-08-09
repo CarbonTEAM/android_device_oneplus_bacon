@@ -1,15 +1,15 @@
 [
   {
     "remote": "cr",
-    "repository": "CarbonDev/android_device_oppo_common",
+    "repository": "CarbonTEAM/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "revision": "kk"
+    "revision": "kk4.4"
   },
   {
     "remote": "cr",
-    "repository": "CarbonDev/android_device_oppo_msm8974-common",
+    "repository": "CarbonTEAM/android_device_oppo_msm8974-common",
     "target_path": "device/oppo/msm8974-common",
-    "revision": "kk"
+    "revision": "kk4.4"
   },
   {
     "remote": "cm",
